@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header img {
+    width: 100%;
+}
+
+#header h1 {
+    font-size: 3em;
+    color:darkblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#navBar ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+#navBar ul {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main {
+    font-size: 1.25em;
+    line-height: 2em;
+}
+
+#mainTop {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#kano_jigoro {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+
+#flex-container {
+    display: flex;
+    background-color: lightslategray;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#flex-container img {
+    margin: 10px;
+    border: 7px solid darkblue;
+}
+
+
+#mainBottomContainer{
+    margin: 50px 10% 50px 10%;
+
+}
+
+#mainBottomContainer h2 {
+    font-size: 1.25em;
+}
+
+
+#mainBottomContainer ol {
+    margin-left: 2em;
+}
+
+#mainBottomContainer p {
+    font-style: italic;
+}
+
+
+#footer {
+    background-image: url(../_images/footer_1920x200.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+#footer p{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px darkblue;
+    padding-top: 70px;
+}
