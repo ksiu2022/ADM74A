@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+h1 + p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+/* Grid starts here*/
+
+    .item1 {
+
+        grid-area: header;
+
+    }
+
+    .item1 img {
+        width: 100%;
+    }
+
+    .item2 {
+
+        grid-area: nav;
+
+    }
+
+    .item3 {
+
+        grid-area: main;
+
+    }
+
+    .item4 {
+
+        grid-area: aside;
+
+    }
+
+    .item4 p {
+        text-align: left;
+    }
+
+    .item5 {
+
+        grid-area: footer;
+        background-image: url(../_images/footer_1920x250.jpg);
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .item5 p {
+        text-align: center;
+        color: white;
+        margin-top: 100px;
+        text-shadow: 2px 2px black;
+    }
+
+    .grid-container {
+
+        display: grid; 
+
+        grid-template-areas: 
+
+        'header header header header header header'
+
+        'nav main main main aside aside'
+
+        'nav footer footer footer footer footer';
+
+        gap: 10px;
+
+        padding: 10px;
+
+    }
+
+    .grid-container > div {
+
+
+        text-align: center; 
+
+        padding: 20px 0 20px 0;
+
+        font-size: 30px;
+
+    }
+
+    /* Grid ends here*/
+
+    /* flex container - inside the grid container*/
+    .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+    /* media query - breakpoint at 600*/
+
+    @media only screen and (max-width: 600px) {
+
+        .grid-container {
+
+            display: grid; 
+    
+            grid-template-areas: 
+    
+            'header'
+    
+            'nav'
+
+            'main'
+
+            'aside'
+    
+            'footer';
+    
+            gap: 10px;
+    
+            padding: 10px;
+    
+        }
+        
+
+    } 
