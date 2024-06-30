@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+  <title>No stylesheet applied</title> <!--enter your title here for each page-->
+      <meta name="description" content="This is assignment 2 from module 2" />
+      <meta name="keywords" content="css, id, class, selectors, box model">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="author" content="designer: K. Sunny Siu"> <!--enter your name here-->
+      <meta name="charset" content="utf-8">
+
+        <!-- correspond your HTML pages to these stylesheets -->
+        <!--
+        <link rel="stylesheet" href="../_css/styles01.css" />
+        <link rel="stylesheet" href="../_css/styles02.css" />
+        <link rel="stylesheet" href="../_css/styles03.css" />
+        -->
+
+  </head>
+ 
+
+  <body>
+    <header>
+        <h1 id="headerTitle">Welcome to the CSS Testing Site</h1>  <!--css id or class selector-->
+        <p>Select differnt stylesheet to see how it affects the visual appearance of the HTML content</p>
+    </header>
+    <nav id="navBar"> <!--css id or class selector-->
+        <ul>
+            <li><a href="applied_no_stylesheet.html">No Stylesheet</a></li>
+            <li><a href="applied_stylesheet1.html">Stylesheet 1</a></li>
+            <li><a href="applied_stylesheet2.html">Stylesheet 2</a></li>
+            <li><a href="applied_stylesheet3.html">Stylesheet 3</a></li>
+        </ul>
+    </nav>
+    <main id="areaMain"> <!--css id or class selector-->
+        <section >
+            <h2 class="mainTitle">The same HTML page can appear very differently when different stylesheet is used.</h2> <!--css id or class selector-->
+            <p>This project is an introduction and demonstration of how powerful and useful CSS is to web design. HTML provides a bare structure for your content. CSS styles the HTML contents based on element names, id and classes. CSS styles can be inserted to the HTML content in three different ways: </p>
+            <ul class="mainLists"> <!--css id or class selector-->
+                <li>External CSS</li>
+                <li>Internal CSS</li>
+                <li>Inline</li>
+            </ul>
+            <h3 class="mainSubTitle">External CSS</h3> <!--css id or class selector-->
+            <p>External CSS is inserted to a HTML document with the link element inside the head area of an HTML document.</p>
+            <h3 class="mainSubTitle">Internal CSS</h3> <!--css id or class selector-->
+            <p>Internal CSS is inserted to a HTML document with the style element inside the head area of an HTML element.</p>
+            <h3 class="mainSubTitle">Inline CSS</h3> <!--css id or class selector-->
+            <p>Inline CSS is added directly to a HTML element via its style attribute</p>
+            <h3 class="mainSubTitle">Cascading Order</h3> <!--css id or class selector-->
+            <p>CSS styles cascade into one another in the following scheme based on their level of priority:</p>
+            <ol class="mainLists"> <!--css id or class selector-->
+                <li>Browser default</li>
+                <li>External stylesheet</li>
+                <li>Internal style</li>
+                <li>Inline style</li>
+            </ol>
+        </section>
+        <article id="sideBar"> <!--css id or class selector-->
+            <p>Cascading Styles Sheets, commonly known as CSS, was created by a Norwegian web programmer, Håkon Wium Lie, in 1996, while working with Tim Berners-Lee, better known as the father of the internet. CSS is designed to enable the separation of formatting and content. The CSS specification, like the HTML specification, are maintained by the World Wide Web Consortium(W3C). Current version of CSS is CSS3.</p>
+        </article>
+    </main>
+    <footer>
+        <p>HTML defines the structure and semantics of a HTML document; whereas, CSS formats or stylizes the HTML content.</p>
+    </footer>
+  </body>
+</html>

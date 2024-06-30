@@ -1,0 +1,94 @@
+/*this applies box-sizing and zero-outs margin and padding to all elements*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} 
+
+/* this styles the navigational menu */
+#navBar ul {
+    list-style-type: none;
+}
+#navBar li {
+    display: inline;
+}
+body {
+    background-color: rgba(240,226,219,1.00);
+}
+header {
+    background-color: rgba(245,128,106,1.00);
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#headerTitle {
+    color: rgba(255,255,255,1.00);
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-weight: lighter;
+    font-size: 3.5em;
+    text-align: center;
+}
+header p {
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+}
+#navBar {
+    background-color: rgba(233,203,177,1.00);
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-align: right;
+}
+#navBar li {
+    margin-right: 25px;
+}
+#areaMain {
+    background-color: rgb(255,255,255);
+    color: rgba(255,255,255,1.00);
+}
+section {
+    background-color: rgba(140,108,92,1.00);
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+}
+#areaMain #sideBar {
+    background-color: rgba(239,226,223,1.00);
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    font-style: italic;
+    color: rgba(0,0,0,1.00);
+}
+footer {
+    background-color: rgb(245,128,106);
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    text-align: right;
+    color: rgba(255,255,255,1.00);
+}
+.mainTitle {
+    margin-bottom: 25px;
+}
+.mainLists {
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+.mainSubTitle {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.mainSubTitle + p {
+    margin-left: 25px;
+}

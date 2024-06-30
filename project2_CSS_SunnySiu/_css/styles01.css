@@ -1,0 +1,89 @@
+/*this applies box-sizing and zero-outs margin and padding to all elements*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} 
+
+/* this styles the navigational menu */
+#navBar ul {
+    list-style-type: none;
+}
+#navBar li {
+    display: inline;
+}
+body {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+header {
+    background-color: grey;
+    padding: 25px;
+}
+
+#headerTitle {
+    color:#ffffff;
+}
+
+p {
+    color:darkslategray;
+}
+
+#navBar {
+    background-color: cadetblue;
+    padding: 25px;
+    text-align: center;
+}
+
+#navBar ul li {
+    margin-left: 20px;
+}
+
+#areaMain {
+    background-color:rgb(181, 208, 209);
+    padding: 25px;
+}
+
+section {
+    background-color:rgb(192, 173, 171);
+    padding: 20px;
+}
+
+article {
+    background-color:rgb(148, 134, 115);
+    padding: 20px;
+}
+
+.mainLists {
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mainSubTitle {
+    text-transform: lowercase;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #ffffffbd;
+    padding: 15px;
+}
+
+.mainSubTitle + p {
+    padding:  15px;
+    background-color: rgba(158, 184, 185, 0.836);
+}
+
+#sideBar p {
+    color: rgb(255, 255, 255);
+
+}
+
+footer {
+    background-color: grey;
+    padding: 30px;
+    text-align: right;
+}
+
+footer p {
+    color: #ffffff;
+}

@@ -1,0 +1,105 @@
+/*this applies box-sizing and zero-outs margin and padding to all elements*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} 
+
+/* this styles the navigational menu */
+#navBar ul {
+    list-style-type: none;
+}
+#navBar li {
+    display: inline;
+}
+
+body {
+    background-color: #E9D3C2;  
+}
+#headerTitle {
+    color: #150AA3;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-weight: lighter;
+}
+header {
+    background-color: #FFF8F2;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+.mainLists {
+    margin-left: 25px;
+}
+#navBar {
+    text-align: right;
+    background-color: #9B9CF0;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+
+#areaMain {
+    background-color: #FFF8F2;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+section {
+    background-color: #EDB07B;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+#sideBar {
+    background-color: #ED937B;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: #9B9CF0;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-align: right;
+    color: #FFFFFF; 
+}
+.mainSubTitle {
+    background-color: rgba(241,227,227,0.50);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.mainSubTitle + p {
+    background-color: rgba(255,255,255,0.8);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}

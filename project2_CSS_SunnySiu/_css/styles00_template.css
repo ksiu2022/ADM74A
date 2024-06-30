@@ -1,0 +1,15 @@
+/*this applies box-sizing and zero-outs margin and padding to all elements*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} 
+
+/* this styles the navigational menu */
+#navBar ul {
+    list-style-type: none;
+}
+#navBar li {
+    display: inline;
+}
+
